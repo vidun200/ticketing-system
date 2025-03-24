@@ -1,0 +1,46 @@
+
+  
+
+.terminal {
+    width: 250%;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.terminal--top {
+    margin: 10px;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.terminal--top > div {
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.terminal--top > div:first-child {
+    background-color: greenyellow;
+}
+
+.terminal--top > div:nth-child(2) {
+    background-color: orange;
+}
+
+.terminal--top > div:nth-child(3) {
+    background-color: red;
+}
+
+.terminal--messages > p {
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    color: green;
+}

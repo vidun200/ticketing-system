@@ -1,0 +1,11 @@
+<div class="log-container">
+    <h2>Event Ticketing System Logs</h2>
+    <div *ngIf="logs.length > 0; else noLogs">
+      <div class="log-entry" *ngFor="let log of logs">
+        {{ log }}
+      </div>
+    </div>
+    <ng-template #noLogs>
+      <p>No logs to display yet...</p>
+    </ng-template>
+  </div>

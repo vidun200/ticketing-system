@@ -1,0 +1,5 @@
+<div class="start-stop">
+    <button (click)="startSystem()" [disabled]="systemRunning">Start</button>
+    <button (click)="stopSystem()" [disabled]="!systemRunning">Stop</button>
+    <p *ngIf="responseMessage">{{ responseMessage }}</p>
+  </div>

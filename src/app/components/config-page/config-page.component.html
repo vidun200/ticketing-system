@@ -1,0 +1,48 @@
+<div class="config-form">
+    <h2>System Configuration</h2>
+    <form (ngSubmit)="updateConfig()">
+      <div class="form-group">
+        <label for="maxCapacity">Maximum Ticket Capacity:</label>
+        <input
+          type="number"
+          id="maxCapacity"
+          [(ngModel)]="maxTicketCapacity"
+          name="maxCapacity"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="totalTickets">Total Tickets:</label>
+        <input
+          type="number"
+          id="totalTickets"
+          [(ngModel)]="totalTickets"
+          name="totalTickets"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="releaseRate">Ticket Release Rate:</label>
+        <input
+          type="number"
+          id="releaseRate"
+          [(ngModel)]="ticketReleaseRate"
+          name="releaseRate"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="retrievalRate">CustomerRetrievalRate:</label>
+        <input
+          type="number"
+          id="retrievalRate"
+          [(ngModel)]="customerRetrievalRate"
+          name="retrievalRate"
+          required
+        />
+      </div>
+      <button type="submit">Update Configuration</button>
+
+      <button type="button" (click)="loadConfig()">Load Configuration</button>
+    </form>
+  </div>

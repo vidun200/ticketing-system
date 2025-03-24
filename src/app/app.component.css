@@ -1,0 +1,19 @@
+.container > nav {
+    height: 50px;
+    margin: 10px;
+    width: 98%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: oblique;
+    padding-top: 10px;
+}
+
+.container > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+}

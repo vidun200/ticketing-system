@@ -1,0 +1,53 @@
+.config-form {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 35px 30px 20px;
+  border-radius: 20px;
+  width: 300px;
+  margin-top: 10px;
+  border: 1px solid #cccccc;
+}
+
+.config-form > h2 {
+  margin: 10px 0px 20px 0px;
+  text-align: center;
+}
+
+.form-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.form-group > label {
+  display: block;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.form-group > input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 186, 186);
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.config-form > form > button {
+  padding: 10px 5px 10px 5px;
+  display: block;
+  width: 100%;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.config-form > form > button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.3s ease-out;
+}
